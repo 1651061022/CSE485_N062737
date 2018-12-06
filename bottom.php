@@ -1,4 +1,3 @@
-
 <footer>
 	<div class="container">
 		<div class="row">
@@ -45,6 +44,42 @@
 		</div>
 	</div>
 </footer>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title" id="myModalLabel">Popup login</h4>
+			</div>
+			<div class="modal-body">
+				<div class="main">
+					<div class="form2">
+						<div>
+							<h1>Login</h1>
+							<div class="input2">
+								<p>Nhap Username: </p>
+								<input type="text" name="userid">
+								<p>Nhap Password: </p>
+								<input type="password" name="pass"><br/>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<a href="#">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+					Dang Ki</button>
+				</a>
+				<button type="button" class="btn btn-primary">Dang Nhap</button>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">

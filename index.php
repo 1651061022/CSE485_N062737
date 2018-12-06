@@ -2,27 +2,6 @@
 include 'top.php';
 ?>
 <div class="main">
-	<div class="Left-Content">
-		<div class="Sidenav-left">
-			<div id="mySidenav" class="sidenav">
-				<a href="#" id="menu">Menu
-					<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-				</a>
-				<a href="#" id="about">About
-					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-				</a>
-				<a href="#" id="blog">Blog
-					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-				</a>
-				<a href="#" id="projects">Projects
-					<span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
-				</a>
-				<a href="#" id="contact">Contact
-					<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
-				</a>
-			</div>
-		</div>
-	</div>
 	<div class="container bgtm">
 		<div class="row">
 			<div class="catalog-title">

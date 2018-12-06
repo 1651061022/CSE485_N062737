@@ -20,7 +20,7 @@
 						<div class="col-md-3">
 							<div class="row">
 								<div class="logo">		
-									<a href="index.html">
+									<a href="index.php">
 										<img src="image/logo.png">
 									</a>
 								</div>
@@ -55,23 +55,23 @@
 									<button onclick="myFunction()"  class="dropbtn">Menu
 									</button>
 									<div id="myDropdown" class="dropdown-content">
-										<a href="#home">Trang Chủ</a>
-										<a href="#news">Du Lịch</a>
-										<a href="#contact">Khách Sạn</a>
-										<a href="#about">Ăn Uống</a>
-										<a href="#about">Tin Tức</a>
-										<a href="#about">CSKH</a>
-										<a href="#about">Liên Hệ</a>
+										<a href="index.php">Trang Chủ</a>
+										<a href="nextn1.php">Du Lịch</a>
+										<a href="index.php">Khách Sạn</a>
+										<a href="index.php">Ăn Uống</a>
+										<a href="index.php">Tin Tức</a>
+										<a href="index.php">CSKH</a>
+										<a href="index.php">Liên Hệ</a>
 									</div>
 								</div>
 								<div class="topnav">
-									<a href="#home">Trang Chủ</a>
-									<a href="#news">Du Lịch</a>
-									<a href="#contact">Khách Sạn</a>
-									<a href="#about">Ăn Uống</a>
-									<a href="#about">Tin Tức</a>
-									<a href="#about">CSKH</a>
-									<a href="#about">Liên Hệ</a>
+									<a href="index.php">Trang Chủ</a>
+									<a href="nextn1.php">Du Lịch</a>
+									<a href="index.php">Khách Sạn</a>
+									<a href="index.php">Ăn Uống</a>
+									<a href="index.php">Tin Tức</a>
+									<a href="index.php">CSKH</a>
+									<a href="index.php">Liên Hệ</a>
 								</div>
 							</div>
 						</div>
@@ -113,6 +113,27 @@
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Left-Content">
+				<div class="Sidenav-left">
+					<div id="mySidenav" class="sidenav">
+						<a href="#" id="menu">Menu
+							<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+						</a>
+						<a href="#" id="about">About
+							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						</a>
+						<a href="#" id="blog">Blog
+							<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+						</a>
+						<a href="#" id="projects">Projects
+							<span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+						</a>
+						<a href="#" id="contact">Contact
+							<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+						</a>
 					</div>
 				</div>
 			</div>
