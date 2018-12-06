@@ -5,11 +5,21 @@ include 'top.php';
 	<div class="Left-Content">
 		<div class="Sidenav-left">
 			<div id="mySidenav" class="sidenav">
-				<a href="#" id="menu">Menu</a>
-				<a href="#" id="about">About</a>
-				<a href="#" id="blog">Blog</a>
-				<a href="#" id="projects">Projects</a>
-				<a href="#" id="contact">Contact</a>
+				<a href="#" id="menu">Menu
+					<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+				</a>
+				<a href="#" id="about">About
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+				</a>
+				<a href="#" id="blog">Blog
+					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+				</a>
+				<a href="#" id="projects">Projects
+					<span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+				</a>
+				<a href="#" id="contact">Contact
+					<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -173,12 +183,6 @@ include 'top.php';
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
 <?php
 include 'bottom.php';
 ?>
