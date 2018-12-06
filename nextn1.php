@@ -41,13 +41,16 @@ include 'top.php';
 		</div>
 	</div>
 </div>
-</div>
-</div>
+<?php
+include 'bottom.php';
+?>
 <style type="text/css">
 .slideshow-container{
 	display: none;
 }
+@media (max-width: 991px) {
+	.quangcao{
+		display: none;
+	}
+}
 </style>
-<?php
-include 'bottom.php';
-?>

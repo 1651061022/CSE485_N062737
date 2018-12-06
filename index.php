@@ -160,8 +160,6 @@ include 'top.php';
 		</div>
 	</div>
 </div>
-</div>
-</div>
 <?php
 include 'bottom.php';
 ?>

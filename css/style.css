@@ -111,13 +111,13 @@ header{;
 	color: white;
 }
 .button button{
-    margin: 9px 5px;
-    padding: 12px 20px;
-    text-transform: uppercase;
-    background: #3d8ace00;
-    border-radius: 20px 1px;
-    border: 1px solid;
-    height: 49px;
+	margin: 9px 5px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	background: #3d8ace00;
+	border-radius: 20px 1px;
+	border: 1px solid;
+	height: 49px;
 }
 .logo img {
 	width: 100%;
@@ -258,15 +258,15 @@ img {vertical-align: middle;}
 	color: #e1ffda;
 }
 .search-container input {
-    padding-left: 27px;
-    margin: 11px;
-    width: 75%;
-    margin-right: 1px;
-    background: #3d8ace00;
-    color: aqua;
-    border-radius: 20px 20px;
-    border: 1px solid;
-    height: 46px;
+	padding-left: 27px;
+	margin: 11px;
+	width: 75%;
+	margin-right: 1px;
+	background: #3d8ace00;
+	color: aqua;
+	border-radius: 20px 20px;
+	border: 1px solid;
+	height: 46px;
 }
 .search-container button{
 	background: #3d8ace00;
@@ -303,9 +303,13 @@ img {vertical-align: middle;}
 	.topnav{
 		display: none;
 	}
-.quangcao {
-	display: 
-}
+	.quangcao {
+		display: 
+	}
+	.ctg-sanpham img {
+		width: 83%;
+		height: 220px;
+	}
 }
 @media (min-width: 992px){
 	.dropdown-navbar{
@@ -349,14 +353,14 @@ img {vertical-align: middle;}
 }
 
 .dropdown-content a {
-    color: black;
-    font-size: 16px;
-    border: none;
-    background-color: rgba(44, 86, 204, 0.4);
-    padding: 20px;
-    text-transform: uppercase;
-    width: 100%;
-    display: inline-block;
+	color: black;
+	font-size: 16px;
+	border: none;
+	background-color: rgba(44, 86, 204, 0.4);
+	padding: 20px;
+	text-transform: uppercase;
+	width: 100%;
+	display: inline-block;
 }
 
 .dropdown-navbar a:hover {
