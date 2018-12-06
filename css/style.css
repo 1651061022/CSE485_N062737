@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{;
+	border-top:1px solid red;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+#mySidenav a {
+	position: absolute;
+	left: -123px;
+	transition: 0.3s;
+	padding: 14px;
+	width: 170px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	position: fixed;
+}
+.mySlides img{
+	width: 100%;
+}
+#mySidenav a:hover {
+	left: -2px;
+}
+.sidenav span {
+	position: absolute;
+	right: 16px;
+	top: 17px;
+}
+#menu{
+	top: 40px;
+	background-color: #F000FF;
+}
+#about {
+	top: 100px;
+	background-color: #4CAF50;
+}
+
+#blog {
+	top: 160px;
+	background-color: #2196F3;
+}
+
+#projects {
+	top: 220px;
+	background-color: #f44336;
+}
+
+#contact {
+	top: 280px;
+	background-color: #555
+}
+.ctg-sanpham{
+	display: inline-block;
+	border: 0px solid #000;
+	padding: 7px;
+	margin: 6px;
+	width: 95%;
+	border-radius: 0px;
+	background-color: #37a5be;
+	position: relative;
+}
+.title-news{
+
+	color: #42d742;
+}
+.mini-news{
+
+	color: #fcffc7;
+
+	margin: 7px 0px 5px 0px;
+}
+.ctg-sanpham img {
+	width: 100%;
+	height: 220px;
+}
+.content-main{
+	border-top: 2px solid black;
+	margin-top: 30px;
+}
+.catalog-title h1 {
+	padding-left: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+.bantinchinh img{
+	width: 100%;
+	margin-bottom: 15px;
+	height: 328px;
+	border: 0px;
+	border-radius: 2px;
+}
+.bantinphu{
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+.bantinphu img{
+	width: 100%;
+	padding-right: 5px;
+}
+.container-fluid{
+	background-color: #3A7997;
+}
+.tang1 h1{
+	color: white;
+}
+.button button{
+	margin: 9px 5px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	background: #3d8ace00;
+	color: aqua;
+	border-radius: 20px 1px;
+	border: 1px solid;
+	height: 49px;
+}
+.logo img {
+	width: 100%;
+}
+.loginbtn{
+	display: flex;
+	float: right;
+}
+.topnav a{
+	background-color: rgba(245, 244, 244, 0.1);
+	padding: 15px 49px 15px 49px;
+	margin: 0px;
+	display: inline-block;
+	color: whitesmoke;
+	text-transform: uppercase;
+}
+.toparea{
+	background-color:black ;
+}
+.bgtm{
+	background-color: #592c2cb0;
+}
+
+ul{
+	list-style-type: none;
+}
+.thanhnav{
+	display: inline;
+}
+.thanhnav li {
+	border: 1px solid #93bee9;
+	padding: 11px;
+	margin: 5px 20px 0px 0px;
+	background-color: #FFFFFF;
+}
+footer{
+	width: 100%;
+	background: #2778b1;
+	color: white;
+}
+/*style phan slideshow anh*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 22px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.8s ease;
+}
+
+.active {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+.modal-backdrop.fade.in {
+	z-index: -1 !important;
+}
+.bggd{
+	background-image: url(../image/backgimage.jpg);
+}
+.bgrd{
+	background-color: red; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#2F27C9, #00F0FF, #7CF6F7) !important; /* Standard syntax (must be last) */
+}
+.quangcao img{
+	border: 1px solid #000;
+	width: 100%;
+}
+.quangcao {
+	padding: 10px;
+	background: azure;
+	margin: 10px;
+	display: inline-block;
+	height: 2000px;
+}
+.noidung img {
+	width: 100%;
+}
+.noidung h2 {
+	color: #e1ffda;
+}
+.noidung p{
+	color: #e1ffda;
+}
+.search-container input {
+	padding-right: 235px;
+	padding-left: 27px;
+	margin: 11px;
+	margin-right: 1px;
+	background: #3d8ace00;
+	color: aqua;
+	border-radius: 20px 20px;
+	border: 1px solid;
+	height: 46px;
+}
+.search-container button{
+	background: #3d8ace00;
+	color: aqua;
+	border-radius: 20px 20px;
+	border: 1px solid;
+	width: 60px;
+	height: 49px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.Left-Content{
+		display: none;
+	}
+	.search-container input {
+		padding-right: 171px;
+	}
+	.topnav a {
+		padding: 15px 35px;
+		margin: -1px;
+	}
+}
+@media (max-width: 992px){
+	.Left-Content{
+		display: none;
+	}
+	.search-container input {
+		padding-right: 171px;
+	}
+	.topnav a {
+		margin: 1px;
+		float: left;
+		width: 100%;
+	}
+	.topnav{
+		display: none;
+	}
+}
+@media (min-width: 992px){
+	.dropdown-navbar{
+		display: none !important;
+	}
+
+}
+
+.dropbtn {
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	background-color: rgba(245, 244, 244, 0.1);
+	background-image: url(../image/iconmenu.png);
+	padding: 20px;
+	margin: 0px;
+	display: inline-block;
+	color: whitesmoke;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+.dropdown-navbar {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(44, 86, 204, 0.4);
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+}
+
+.dropdown-navbar a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+.dropdown-navbar span{
+	position: absolute;
+	top: 12px;
+	right: 19px;
+	font-size: 30px;
+}
