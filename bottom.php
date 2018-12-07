@@ -1,5 +1,3 @@
-</div>
-</div>
 <footer>
 	<div class="container">
 		<div class="row">
@@ -206,8 +204,3 @@
 				<button type="button" class="btn btn-primary">Dang Nhap</button>
 			</div>
 		</div>
-	</div>
-</div>
-<script type="text/javascript" src="js/myscript.js"></script>
-</body>
-</html>
