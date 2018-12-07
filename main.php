@@ -173,7 +173,7 @@
 		</div>
 	</div>
 	<?php
-	include 'duoi.php';
+	include 'bottom.php';
 	?>
 	<script type="text/javascript" src="js/myscript.js"></script>
 </body>

@@ -259,29 +259,26 @@ img {vertical-align: middle;}
 }
 .search-container input {
 	padding-left: 27px;
-	margin: 11px;
-	width: 75%;
-	margin-right: 1px;
+	margin-top: 12px;
+	width: 100%;
 	background: #3d8ace00;
 	color: aqua;
 	border-radius: 20px 20px;
 	border: 1px solid;
-	height: 46px;
+	height: 45px;
+	position: relative;
 }
 .search-container button{
 	background: #3d8ace00;
 	color: aqua;
-	border-radius: 20px 20px;
-	border: 1px solid;
-	width: 60px;
-	height: 49px;
+	border: none;
+	position: absolute;
+	right: 28px;
+	top: 11px;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	.Left-Content{
 		display: none;
-	}
-	.search-container input {
-		padding-right: 171px;
 	}
 	.topnav a {
 		padding: 15px 35px;
@@ -291,9 +288,6 @@ img {vertical-align: middle;}
 @media (max-width: 992px){
 	.Left-Content{
 		display: none;
-	}
-	.search-container input {
-		padding-right: 171px;
 	}
 	.topnav a {
 		margin: 1px;
@@ -310,11 +304,63 @@ img {vertical-align: middle;}
 		width: 83%;
 		height: 220px;
 	}
+	.catalog-title h1 {
+		padding-left: 15px;
+		color: white;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	.button button {
+		margin: 9px 5px;
+		padding: 0px 26px;
+		text-transform: uppercase;
+		background: #3d8ace00;
+		border-radius: 20px 1px;
+		border: 1px solid;
+		height: 49px;
+		font-size: 100%;
+	}
+}
+@media (max-width: 400px){
+	.button button {
+		margin: 9px 5px;
+		padding: 0px 8px;
+		text-transform: uppercase;
+		background: #3d8ace00;
+		border-radius: 20px 1px;
+		border: 1px solid;
+		height: 49px;
+		font-size: 70%;
+	}
 }
 @media (min-width: 992px){
 	.dropdown-navbar{
 		display: none !important;
+		margin: 9px 5px;
+		padding: 0px 26px;
+		text-transform: uppercase;
+		background: #3d8ace00;
+		border-radius: 20px 1px;
+		border: 1px solid;
+		height: 49px;
+		font-size: 100%;
 	}
+}
+@media (max-width: 768px){
+	.mySlides img {
+		width: 95%;
+		margin: 15px;
+	}
+	.
+	margin: 9px 5px;
+	padding: 0px 26px;
+	text-transform: uppercase;
+	background: #3d8ace00;
+	border-radius: 20px 1px;
+	border: 1px solid;
+	height: 49px;
+}
+@media ( max-width: 530px){
 
 }
 

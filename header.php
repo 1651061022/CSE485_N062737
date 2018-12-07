@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
 		<header>
-			<div class="col-md-3">
+			<div class="col-xs-12 col-md-3">
 				<div class="row">
 					<div class="logo">		
 						<a href="main.php">
@@ -10,8 +10,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="row">	
+			<div class="col-xs-8 col-md-6">
+				<div class="ro">	
 					<div class="search-container">
 						<form action="/action_page.php">
 							<input type="text" placeholder="Search.." name="search">
@@ -22,8 +22,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="row">
+			<div class="col-xs-4 col-md-3">
+				<div class="ro">
 					<div class="loginbtn">
 						<div class="button">
 							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-xs-12 col-md-12 ">
 				<div class="row">
 					<div class="dropdown-navbar">
 						<button onclick="myFunction()"  class="dropbtn">Menu
