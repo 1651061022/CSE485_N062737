@@ -27,8 +27,8 @@
 					<div class="loginbtn">
 						<div class="button">
 							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-								Đăng Nhập / login
-							</button>
+								Đăng Nhập / login </button>
+								<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Nhập / login</button>
 						</div>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 	<div class="Sidenav-left">
 		<div id="mySidenav" class="sidenav">
 			<a href="next1.php" id="menu">Menu
-				<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+				<i class="fas fa-archive"></i>
 			</a>
 			<a href="next1.php" id="about">About
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
