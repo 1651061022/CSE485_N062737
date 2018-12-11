@@ -40,8 +40,12 @@ button:hover {
 }
 
 img.avatar {
-    width: 40%;
-    border-radius: 50%;
+    width: 50%;
+    border-radius: 24%;
+    position: absolute;
+    display: inline-block;
+    margin: 13px;
+    right: 0px;
 }
 
 .container {
@@ -79,8 +83,8 @@ span.psw {
 /* The Close Button (x) */
 .close {
     position: absolute;
-    right: 25px;
-    top: 0;
+    right: -20px;
+    top: -33px;
     color: #000;
     font-size: 35px;
     font-weight: bold;

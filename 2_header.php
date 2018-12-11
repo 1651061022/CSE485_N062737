@@ -28,7 +28,6 @@
 						<div class="button">
 							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 								Đăng Nhập / login </button>
-								<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Nhập / login</button>
 						</div>
 					</div>
 				</div>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php
-	include 'head.php';
+	include '1_head.php';
 	?>
 </head>
 <style type="text/css">
@@ -19,7 +19,7 @@
 	<div class="container-fluid  bggd">
 		<div class="row">
 			<?php
-			include 'header.php'
+			include '2_header.php'
 			?>
 			<div class="main">
 				<div class="container">
@@ -61,7 +61,7 @@
 		</div>
 	</div>
 	<?php
-	include 'bottom.php';
+	include '4_bottom.php';
 	?>
 	<script type="text/javascript" src="js/myscript.js"></script>
 </body>
