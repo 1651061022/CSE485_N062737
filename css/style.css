@@ -8,6 +8,20 @@ header{;
 	width: 100%;
 	display: inline-block;
 }
+i.fas.fa-search {
+	display: inline-block;
+	font-size: 25px;
+	position: absolute;
+	right: 6px;
+	top: 10px;
+}
+i.fab.fa-google {
+    color: white;
+    font-size: 27px;
+    position: absolute;
+    top: 21px;
+    left: 26px;
+}
 #mySidenav a {
 	position: absolute;
 	left: -123px;
@@ -123,6 +137,162 @@ header{;
 	border-radius: 20px 1px;
 	border: 1px solid;
 	height: 49px;
+}
+/* style modal */
+.date input{
+	margin-top: 0px !important;
+}
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.form_logn{
+		display: flex;
+		width: 100%;
+	}
+	.style2 button {
+		margin: 9px 6px !important;
+		padding: 12px 15px !important;
+	}
+}
+@media screen and (max-width: 642px){
+	.form_logn{
+		display: flex;
+		width: 100%;
+	}
+	.style2 button {
+		margin: 9px 3px !important;
+		padding: 12px 10px !important;
+	}
+}
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+	position: absolute;
+	right: -20px;
+	top: -33px;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+/*.style2 button {
+	margin: 9px 5px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	background: #3d8ace00;
+	border-radius: 20px 1px;
+	border: 1px solid;
+	height: 49px;
+	color: #d8f0ef;
+
+}*/
+.style2 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.style2 button:hover {
+	opacity: 0.8;
+}
+.cancelbtn {
+	margin: 9px 5px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	background: #FF0000;
+	border-radius: 20px 1px;
+	border: 1px solid;
+	height: 49px;
+}
+.style2 input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.style2 span.psw {
+	float: right;
+	padding-top: 16px;
+}
+.conta{
+	padding: 16px;
+	width: 100% !important;
+}
+.style2 img.avatar {
+	width: 50%;
+	border-radius: 24%;
+	position: absolute;
+	display: inline-block;
+	margin: 13px;
+	right: 0px;
+}
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	height: 100%;
+}
+.input.form-control {
+	height: 100%;
+}
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
 }
 .logo img {
 	width: 100%;
@@ -263,7 +433,7 @@ img {vertical-align: middle;}
 	color: #e1ffda;
 }
 .search-container input {
-	padding-left: 27px;
+	padding-left: 45px;
 	margin-top: 12px;
 	width: 100%;
 	background: #3d8ace00;

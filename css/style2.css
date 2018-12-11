@@ -11,7 +11,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 /* Set a style for all buttons */
-.style2 button {
+button.style2 {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -47,7 +47,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
     margin: 13px;
     right: 0px;
 }
-
+.input.form-control {
+    height: 100%;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    height: 100%;
+}
 .conta{
     padding: 16px;
 }
@@ -130,6 +138,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 @media screen and (max-width: 1200px){
     .form_logn{
-    display: flex;
-}
+        display: flex;
+    }
 }
