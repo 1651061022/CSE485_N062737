@@ -5,6 +5,14 @@
 	include '1_head.php';
 	?>
 </head>
+<style type="text/css">
+.container.id01{
+  width: 100% !important;
+}
+.date.id01 input{
+  margin-top: 0px !important;
+}	
+</style>
 <body>
 	<div class="container-fluid  bggd">
 		<div class="row">

@@ -1,7 +1,7 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.style2 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -11,7 +11,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.style2 button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -21,7 +21,7 @@ button {
     width: 100%;
 }
 
-button:hover {
+.style2 button:hover {
     opacity: 0.8;
 }
 
@@ -39,7 +39,7 @@ button:hover {
     position: relative;
 }
 
-img.avatar {
+.style2 img.avatar {
     width: 50%;
     border-radius: 24%;
     position: absolute;
@@ -48,11 +48,11 @@ img.avatar {
     right: 0px;
 }
 
-.container {
+.conta{
     padding: 16px;
 }
 
-span.psw {
+.style2 span.psw {
     float: right;
     padding-top: 16px;
 }
@@ -95,6 +95,12 @@ span.psw {
     color: red;
     cursor: pointer;
 }
+.conta{
+    width: 100% !important;
+}
+.date input{
+    margin-top: 0px !important;
+}
 
 /* Add Zoom Animation */
 .animate {
@@ -106,7 +112,7 @@ span.psw {
     from {-webkit-transform: scale(0)} 
     to {-webkit-transform: scale(1)}
 }
-    
+
 @keyframes animatezoom {
     from {transform: scale(0)} 
     to {transform: scale(1)}
@@ -115,10 +121,15 @@ span.psw {
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
+     display: block;
+     float: none;
+ }
+ .cancelbtn {
+     width: 100%;
+ }
+}
+@media screen and (max-width: 1200px){
+    .form_logn{
+    display: flex;
+}
 }
