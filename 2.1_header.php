@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="form_logn">
+				<!-- <div class="form_logn">
 					<div class="style2">
 						<button id="btn-main2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>
 						<div id="id01" class="modal">
@@ -123,7 +123,7 @@
 							</form>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="col-xs-12 col-md-12 ">
 				<div class="row">

@@ -9,7 +9,7 @@
 	<div class="container-fluid  bggd">
 		<div class="row">
 			<?php
-			include '2_header.php'
+			include '2.1_header.php'
 			?>
 			<div class="main">
 				<div class="container bgtm">

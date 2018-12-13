@@ -22,8 +22,8 @@
 			include '2_header.php'
 			?>
 			<div class="main">
-				<div class="container">
-					<div class="row">
+				<div class="container ">
+					<div class="row bgtt">
 						<div class="col-md-8">
 							<div class="noidung">
 								<h2> Ngày 1: HẢI PHÒNG - CHÙA LINH ỨNG - NGŨ HÀNH SƠN - PHỐ CỔ HỘI AN - ĐÀ NẴNG   (Ăn trưa, chiều)</h2>

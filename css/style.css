@@ -1,6 +1,16 @@
+@font-face{
+	src:url(../fonts/cour.ttf);
+	font-family: Courier New;
+}
 *{
 	margin: 0;
 	padding: 0;
+	src:url(../fonts/cour.ttf);
+	font-family: Courier New;
+	box-sizing: border-box;
+}
+.font_1 {
+	font-family: Courier New;
 }
 header{;
 	border-top:1px solid red;
@@ -16,18 +26,18 @@ i.fas.fa-search {
 	top: 10px;
 }
 i.fab.fa-google {
-    color: white;
-    font-size: 27px;
-    position: absolute;
-    top: 21px;
-    left: 26px;
+	color: white;
+	font-size: 27px;
+	position: absolute;
+	top: 21px;
+	left: 26px;
 }
 #mySidenav a {
 	position: absolute;
-	left: -123px;
+	left: -184px;
 	transition: 0.3s;
 	padding: 14px;
-	width: 170px;
+	width: 230px;
 	text-decoration: none;
 	font-size: 20px;
 	color: white;
@@ -35,7 +45,8 @@ i.fab.fa-google {
 	position: fixed;
 }
 .mySlides img{
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 #mySidenav a:hover {
 	left: -2px;
@@ -80,7 +91,7 @@ i.fab.fa-google {
 	margin: 6px;
 	width: 95%;
 	border-radius: 0px;
-	background-color: #37a5be;
+	background-color: #37a5be26;
 	position: relative;
 }
 .title-news{
@@ -94,7 +105,7 @@ i.fab.fa-google {
 	margin: 7px 0px 5px 0px;
 }
 .ctg-sanpham img {
-	width: 100%;
+	max-width: 100%;
 	height: 220px;
 }
 .content-main{
@@ -107,7 +118,7 @@ i.fab.fa-google {
 	text-transform: uppercase;
 }
 .bantinchinh img{
-	width: 100%;
+	max-width: 100%;
 	margin-bottom: 15px;
 	height: 328px;
 	border: 0px;
@@ -120,14 +131,15 @@ i.fab.fa-google {
 	margin-bottom: 15px;
 }
 .bantinphu img{
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 	padding-right: 5px;
 }
 .container-fluid{
 	background-color: #3A7997;
 }
 .tang1 h1{
-	color: white;
+	color: #3d0000;
 }
 .button button{
 	margin: 9px 5px;
@@ -156,37 +168,6 @@ i.fab.fa-google {
 @keyframes animatezoom {
 	from {transform: scale(0)} 
 	to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-	span.psw {
-		display: block;
-		float: none;
-	}
-	.cancelbtn {
-		width: 100%;
-	}
-}
-@media screen and (max-width: 1200px){
-	.form_logn{
-		display: flex;
-		width: 100%;
-	}
-	.style2 button {
-		margin: 9px 6px !important;
-		padding: 12px 15px !important;
-	}
-}
-@media screen and (max-width: 642px){
-	.form_logn{
-		display: flex;
-		width: 100%;
-	}
-	.style2 button {
-		margin: 9px 3px !important;
-		padding: 12px 10px !important;
-	}
 }
 .animate {
 	-webkit-animation: animatezoom 0.6s;
@@ -224,7 +205,7 @@ i.fab.fa-google {
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 	padding-top: 60px;
 }
-/*.style2 button {
+#btn-main, #btn-main2{
 	margin: 9px 5px;
 	padding: 12px 20px;
 	text-transform: uppercase;
@@ -234,15 +215,15 @@ i.fab.fa-google {
 	height: 49px;
 	color: #d8f0ef;
 
-}*/
+}
 .style2 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
 }
 .style2 button:hover {
 	opacity: 0.8;
@@ -295,7 +276,9 @@ i.fab.fa-google {
 	position: relative;
 }
 .logo img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: -12px 0px -10px 49px;
 }
 .loginbtn{
 	display: flex;
@@ -303,7 +286,7 @@ i.fab.fa-google {
 }
 .topnav a{
 	background-color: rgba(245, 244, 244, 0.1);
-	padding: 15px 48px 15px 48px;
+	padding: 15px 44px 15px 48px;
 	margin: 0px;
 	display: inline-block;
 	color: whitesmoke;
@@ -312,10 +295,6 @@ i.fab.fa-google {
 .toparea{
 	background-color:black ;
 }
-.bgtm{
-	background-color: #592c2cb0;
-}
-
 ul{
 	list-style-type: none;
 }
@@ -384,9 +363,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
 	-webkit-animation-name: fade;
-	-webkit-animation-duration: 2s;
+	-webkit-animation-duration: 3s;
 	animation-name: fade;
-	animation-duration: 2s;
+	animation-duration: 3s;
 }
 @-webkit-keyframes fade {
 	from {opacity: .4} 
@@ -405,8 +384,14 @@ img {vertical-align: middle;}
 .modal-backdrop.fade.in {
 	z-index: -1 !important;
 }
+.bgtm{
+	background-color:#847F7F ;
+}
 .bggd{
-	background-image: url(../image/backgimage.jpg);
+	background-color: #f4f4f4;
+}
+.bghd{
+	background-color: #0b4b61f5;
 }
 .bgrd{
 	background-color: red; /* For browsers that do not support gradients */
@@ -414,7 +399,8 @@ img {vertical-align: middle;}
 }
 .quangcao img{
 	border: 1px solid #000;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 .quangcao {
 	padding: 10px;
@@ -424,13 +410,17 @@ img {vertical-align: middle;}
 	height: 2000px;
 }
 .noidung img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 21px;
+	margin-top: 15px;
 }
 .noidung h2 {
-	color: #e1ffda;
+	color: #010700;
 }
 .noidung p{
-	color: #e1ffda;
+	color: #010700;
+	font-size: 17px;
 }
 .search-container input {
 	padding-left: 45px;
@@ -451,12 +441,115 @@ img {vertical-align: middle;}
 	right: 28px;
 	top: 11px;
 }
+.dropbtn {
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	background-color: rgba(245, 244, 244, 0.1);
+	background-image: url(../image/iconmenu.png);
+	padding: 20px;
+	margin: 0px;
+	display: inline-block;
+	color: whitesmoke;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+.dropdown-navbar {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.bgtt{
+	background-color:#B0AEAE!important;
+}
+.dropdown-content a {
+	color: black;
+	font-size: 16px;
+	border: none;
+	background-color: rgba(44, 86, 204, 0.4);
+	padding: 20px;
+	text-transform: uppercase;
+	width: 100%;
+	display: inline-block;
+}
+
+.dropdown-navbar a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+.dropdown-navbar span{
+	position: absolute;
+	top: 12px;
+	right: 19px;
+	font-size: 30px;
+}
+.gioithieu {
+	margin: 17px 10px 10px 0px;
+	font-size: 15px;
+}
+.gtgoi {
+	display: flex;
+}
+
+.gtgoi button {
+	margin: 18px 10px 18px 100px;
+	background: #19193608;
+	font-size: 15px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1200px){
+	.form_logn{
+		display: flex;
+		width: 100%;
+	}
+	.style2 button {
+		margin: 9px 6px !important;
+		padding: 12px 15px !important;
+	}
+}
+@media screen and (max-width: 642px){
+	.form_logn{
+		display: flex;
+		width: 100%;
+	}
+	.style2 button {
+		margin: 9px 3px !important;
+		padding: 12px 10px !important;
+	}
+}
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
 @media (min-width: 992px) and (max-width: 1200px) {
 	.Left-Content{
 		display: none;
 	}
 	.topnav a {
-		padding: 15px 35px;
+		padding: 15px 33px;
 		margin: -1px;
 	}
 }
@@ -495,6 +588,12 @@ img {vertical-align: middle;}
 		height: 49px;
 		font-size: 100%;
 	}
+	.logo img {
+		width: 100%;
+		height: auto;
+		padding: 5px 70px 0px 69px;
+		margin: 0px auto;
+	}
 }
 @media (max-width: 400px){
 	.button button {
@@ -508,7 +607,7 @@ img {vertical-align: middle;}
 		font-size: 70%;
 	}
 }
-@media (min-width: 992px){
+@media (min-width: 996px){
 	.dropdown-navbar{
 		display: none !important;
 		margin: 9px 5px;
@@ -523,77 +622,7 @@ img {vertical-align: middle;}
 }
 @media (max-width: 768px){
 	.mySlides img {
-		width: 95%;
-		margin: 15px;
+		width: 100%;
+		height: 50%;
 	}
-	.
-	margin: 9px 5px;
-	padding: 0px 26px;
-	text-transform: uppercase;
-	background: #3d8ace00;
-	border-radius: 20px 1px;
-	border: 1px solid;
-	height: 49px;
-}
-@media ( max-width: 530px){
-
-}
-
-.dropbtn {
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-	background-color: rgba(245, 244, 244, 0.1);
-	background-image: url(../image/iconmenu.png);
-	padding: 20px;
-	margin: 0px;
-	display: inline-block;
-	color: whitesmoke;
-	text-transform: uppercase;
-	width: 100%;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-	background-color: #2980B9;
-}
-
-.dropdown-navbar {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown-content a {
-	color: black;
-	font-size: 16px;
-	border: none;
-	background-color: rgba(44, 86, 204, 0.4);
-	padding: 20px;
-	text-transform: uppercase;
-	width: 100%;
-	display: inline-block;
-}
-
-.dropdown-navbar a:hover {
-	background-color: #ddd;
-}
-
-.show {
-	display: block;
-}
-.dropdown-navbar span{
-	position: absolute;
-	top: 12px;
-	right: 19px;
-	font-size: 30px;
 }

@@ -9,31 +9,20 @@
 	<div class="container-fluid  bggd">
 		<div class="row">
 			<?php
-			include '2_header.php'
+			include '2.1_header.php'
 			?>
 			<div class="main">
-				<div class="container bgtm">
+				<div class="container-fluid bgtm">
 					<div class="row">
-						<div class="catalog-title">
+						<div class="container catalog-title">
 							<div class="col-md-12">
 								<div class="row">
-									<h1>Ảnh mùa 2018</h1>
+									<h1>Tin Tức</h1>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="bantinchinh">
-									<a href="http://localhost/btl/next2.php">
-										<img src="image/bow1.jpg">
-									</a>
-									<a href="http://localhost/btl/next2.php">
-										<div class="title-news">Những album ảnh hot nhất của Bow-Media năm 2018 :</div>
-									</a>
-									<div class="mini-news">- BẠN ĐÃ TẠO DÁNG “ ĐÚNG “ CÁCH CHƯA ️⁉
-										.
-										🎁 Tư thế chụp hình nào là #ĐÚNG để có bức ảnh ngàn Like 👍👍👍
-										🎁 Tư thế chụp hình nào là #SAI để tránh những khuyết điểm xấu xí ^^
-										🎁 Hướng dẫn các tư thế chụp ảnh đơn đôi CỰC SO DEEP cùng #Bow Studio nhé...
-									</div>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/YPfIgLougL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -41,20 +30,17 @@
 									<div class="col-md-4">
 										<div class="row">
 											<a href="test.html">
-												<img src="image/goi1.jpg">
+												<img src="image/halong2.jpeg">
 											</a>
 										</div>
 									</div>
 									<div class="col-md-8">
 										<div class="row">
 											<div class="content">
-												<a href="http://localhost/btl/next1.php">
-													<div class="title-news">Những album ảnh hot nhất của Bow-Media năm 2018 :</div>
+												<a href="test.html">
+													<div class="title-news">DU LỊCH ĐÀ NẴNG - BÀ NÀ HILL - SƠN TRÀ - HỘI AN :</div>
 												</a>
-												<div class="mini-news">- BẠN ĐÃ TẠO DÁNG “ ĐÚNG “ CÁCH CHƯA ️⁉
-													.
-													🎁 Hướng dẫn các tư thế chụp ảnh đơn đôi CỰC SO DEEP cùng #Bow Studio nhé...
-												</div>
+												<div class="mini-news">- Tham quan bán đảo Sơn Trà, ngắm cảng Tiên Sa, viếng chùa Linh Ứng Bãi Bụt - ngôi chùa lớn nhất ở thành phố Đà Nẵng, chiêm ...</div>
 											</div>
 										</div>
 									</div>
@@ -63,20 +49,17 @@
 									<div class="col-md-4">
 										<div class="row">
 											<a href="test.html">
-												<img src="image/goi2.jpg">
+												<img src="image/halong2.jpeg">
 											</a>
 										</div>
 									</div>
 									<div class="col-md-8">
 										<div class="row">
 											<div class="content">
-												<a href="http://localhost/btl/next1.php">
-													<div class="title-news">Cùng chụp ảnh với tập thể C55 Đại Học FPT nào...! :</div>
+												<a href="test.html">
+													<div class="title-news">DU LỊCH ĐÀ NẴNG - BÀ NÀ HILL - SƠN TRÀ - HỘI AN :</div>
 												</a>
-												<div class="mini-news">- BẠN ĐÃ TẠO DÁNG “ ĐÚNG “ CÁCH CHƯA ️⁉
-													.
-													🎁 Hướng dẫn các tư thế chụp ảnh đơn đôi CỰC SO DEEP cùng #Bow Studio nhé...
-												</div>
+												<div class="mini-news">- Tham quan bán đảo Sơn Trà, ngắm cảng Tiên Sa, viếng chùa Linh Ứng Bãi Bụt - ngôi chùa lớn nhất ở thành phố Đà Nẵng, chiêm ...</div>
 											</div>
 										</div>
 									</div>
@@ -85,20 +68,17 @@
 									<div class="col-md-4">
 										<div class="row">
 											<a href="test.html">
-												<img src="image/goi 3.jpg">
+												<img src="image/halong2.jpeg">
 											</a>
 										</div>
 									</div>
 									<div class="col-md-8">
 										<div class="row">
 											<div class="content">
-												<a href="http://localhost/btl/next1.php">
-													<div class="title-news">Kỉ yếu Ngoại Thương:</div>
+												<a href="test.html">
+													<div class="title-news">DU LỊCH ĐÀ NẴNG - BÀ NÀ HILL - SƠN TRÀ - HỘI AN :</div>
 												</a>
-												<div class="mini-news">- BẠN ĐÃ TẠO DÁNG “ ĐÚNG “ CÁCH CHƯA ️⁉
-													.
-													🎁 Hướng dẫn các tư thế chụp ảnh đơn đôi CỰC SO DEEP cùng #Bow Studio nhé...
-												</div>
+												<div class="mini-news">- Tham quan bán đảo Sơn Trà, ngắm cảng Tiên Sa, viếng chùa Linh Ứng Bãi Bụt - ngôi chùa lớn nhất ở thành phố Đà Nẵng, chiêm ...</div>
 											</div>
 										</div>
 									</div>
@@ -107,28 +87,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">	
+				<div class="container-fluid bggd">	
 					<div class="row">
 						<div class="catalog-bottom">
 							<div class="tang1">
 								<div class="col-md-12">
 									<div class="row">
-										<h1>Các gói chụp hot :</h1>
+										<h1>Tour yêu thích :</h1>
 									</div>
 								</div>
 								<div class="col-md-4">
 									<div class="row">
 										<div class="ctg-sanpham">
 											<a href="test.html">
-												<img src="image/goi1.jpg">
+												<img src="image/halong.jpg">
 											</a>
-											<div class="gtgoi">
-												<div class="gioithieu"><p>Gói BOW VIP 1</p></div>
-												<a href="next2.php">
-													<button>Xem thêm...
-													</button>
-												</a>
-											</div>
+											<div>Ha Long</div>
 										</div>
 									</div>
 								</div>
@@ -136,15 +110,9 @@
 									<div class="row">
 										<div class="ctg-sanpham">
 											<a href="test.html">
-												<img src="image/goi2.jpg">
+												<img src="image/hoankiem.jpg">
 											</a>
-											<div class="gtgoi">
-												<div class="gioithieu"><p>Gói BOW VIP 2</p></div>
-												<a href="">
-													<button>Xem thêm...
-													</button>
-												</a>
-											</div>
+											<div>Hoan Kiem</div>
 										</div>
 									</div>
 								</div>
@@ -152,15 +120,9 @@
 									<div class="row">
 										<div class="ctg-sanpham">
 											<a href="test.html">
-												<img src="image/goi 3.jpg">
+												<img src="image/hoian.jpg">
 											</a>
-											<div class="gtgoi">
-												<div class="gioithieu"><p>Gói BOW VIP 3</p></div>
-												<a href="">
-													<button>Xem thêm...
-													</button>
-												</a>
-											</div>
+											<div>Hoi An</div>
 										</div>
 									</div>
 								</div>
@@ -168,7 +130,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">	
+				<div class="container bghd">	
 					<div class="row">
 						<div class="catalog-bottom">
 							<div class="tang1">
@@ -183,7 +145,7 @@
 											<a href="test.html">
 												<img src="image/halong2.jpeg">
 											</a>
-											<div class="gioithieu"><p>Hạ Long</p></div>
+											<div>Ha Long</div>
 										</div>
 									</div>
 								</div>
@@ -193,7 +155,7 @@
 											<a href="test.html">
 												<img src="image/hoankiem.jpg">
 											</a>
-											<div class="gioithieu"><p>Hoàn Kiếm</p></div>
+											<div>Hoan Kiem</div>
 										</div>
 									</div>
 								</div>
@@ -203,7 +165,7 @@
 											<a href="test.html">
 												<img src="image/hoian.jpg">
 											</a>
-											<div class="gioithieu"><p>Hội An</p></div>
+											<div>Hoi An</div>
 										</div>
 									</div>
 								</div>
@@ -216,7 +178,7 @@
 										<a href="test.html">
 											<img src="image/halong2.jpeg">
 										</a>
-										<div class="gioithieu"><p>Ha Long</p></div>
+										<div>Ha Long</div>
 									</div>
 								</div>
 							</div>
@@ -226,7 +188,7 @@
 										<a href="test.html">
 											<img src="image/hoankiem.jpg">
 										</a>
-										<div class="gioithieu"><p>Hoàn Kiếm</p></div>
+										<div>Hoan Kiem</div>
 									</div>
 								</div>
 							</div>
@@ -236,7 +198,7 @@
 										<a href="test.html">
 											<img src="image/hoian.jpg">
 										</a>
-										<div class="gioithieu"><p>Hội An</p></div>
+										<div>Hoi An</div>
 									</div>
 								</div>
 							</div>
