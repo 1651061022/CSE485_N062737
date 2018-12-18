@@ -25,7 +25,7 @@
 			<div class="col-md-3">
 				<div class="form_logn">
 					<div class="style2">
-						<button id="btn-main2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>
+						<button id="btn-main2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Kí Gói</button>
 						<div id="id01" class="modal">
 							<form class="modal-content animate" action="" method="POST">
 								<div class="container conta" >
@@ -33,48 +33,59 @@
 										<div class="cot1 col-md-4">           
 											<div class="col-md-12">
 												<div class="Name">
-													<label for="fristname"><b>First name: </b></label>
-													<input type="text" placeholder="Enter first name" name="fristname" required>
-													<label for="lastname"><b>Last name: </b></label>
-													<input type="text" placeholder="Enter last name" name="lastname" required>
+													<label for="tenlop"><b>Tên Lớp: </b></label>
+													<input type="text" placeholder="Lớp ..A.." name="tenlop" required>
+													<label for="tenloptruong"><b>Tên Lớp Trưởng: </b></label>
+													<input type="text" placeholder="Nguyen Van A" name="tenloptruong" required>
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="Contact Info">
-													<label for="mail"><b>Email: </b></label>
-													<input type="text" placeholder="E-mail@..." name="email" required>
-													<label for="phone"><b>Phone Number: </b></label>
-													<input type="text" placeholder="PhoneNumber..." name="phone" required>
-												</div>
-											</div>
-											<div class='col-md-12'>
-												<label for="username"><b>BirthDay: </b></label>
-												<div class="form-group">
-													<div class='input-group date' id='datetimepicker'>
-														<input type="text" class="form-control" placeholder="BirthDay" name="birthday" data-format="YYYY/MM/DD" style="margin-bottom: 0px;">
-														<span class="input-group-addon">
-															<span class="glyphicon glyphicon-time"></span>
-														</span>
-
+													<label for="username"><b>Ngày Chụp: </b></label>
+													<div class="form-group">
+														<div class='input-group date' id='datetimepicker'>
+															<input type="text" class="form-control" placeholder="dd/xx/yyyy" name="ngaychup" data-format="YYYY/MM/DD" style="margin-bottom: 0px;">
+															<span class="input-group-addon">
+																<span class="glyphicon glyphicon-time"></span>
+															</span>
+														</div>
 													</div>
+													<label for="sdtloptruong"><b>SĐT Lớp Trưởng: </b></label>
+													<input type="text" placeholder="PhoneNumber..." name="sdtloptruong" required>
 												</div>
 											</div>
 										</div>
 										<div class="cot2 col-md-4">
 											<div class="col-md-12">
-												<div class="Login Info">
-													<label for="username"><b>Username: </b></label>
-													<p><p><input type="text" placeholder="Enter Username" name="username" required></p></p>
-													<label for="password"><b>Password: </b></label>
-													<p><input type="password" placeholder="Enter Password" name="password" required></p>
-													<label for="password"><b>Repeat Password: </b></label>
-													<p><input type="password" placeholder="Enter Password" name="re_password" required></p>
-												</div>
+												<label for="tenbithu"><b>Tên Bí Thư: </b></label>
+												<input type="text" placeholder="Nguyen Van B" name="tenbithu" required>
+												<label for="sdtbithu"><b>SĐT Bí Thư: </b></label>
+												<input type="text" placeholder="PhoneNumber..." name="sdtbithu" required>
+												<!-- combobox -->
+												<label for="listgoichup"><b>Lựa chọn gói chụp: </b></label>
+												<select name="listgoichup" id="input" class="form-control" required="required">
+													<option value="goi 1">Vip1</option>
+													<option value="goi 2">Vip2</option>
+													<option value="goi 3">Vip3</option>
+													<option value="goi 4">Vip4</option>
+													<option value="goi 5">Vip5</option>
+												</select>
+											</div>
+											<div class='col-md-12'>
+												<label for="mail"><b>Email: </b></label>
+												<input type="text" placeholder="E-mail@..." name="email" required>
 											</div>
 										</div>
-										<div class="cot3 col-md-4">           
-											<div class="col-md-11">
-												<img src="image/avatar.png" alt="Avatar" class="avatar">
+										<div class="cot3 col-md-4"> 
+											<div class='col-md-12'>
+												<label for="note"><b>Yêu cầu khác: </b></label>
+												<input id="note" type="text" placeholder="Thêm thợ chụp,trang phục ..." name="note" required>
+											</div>          
+											<div class="col-md-6">
+												<button type="submit">Gửi yêu cầu</button>
+											</div>
+											<div class="col-md-6">
+												<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
 											</div>
 											<div class="col-md-1">
 												<div class="imgcontainer">
@@ -82,43 +93,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-12">
-											<button type="submit">Register</button>
-										</div>
 									</div>
-								</div>
-								<div class="container conta" style="background-color:#f1f1f1">
-									<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-								</div>
-							</form>
-						</div>
-						<button id="btn-main" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
-
-						<div id="id02" class="modal">
-							<form class="modal-content animate" action="/action_page.php" method="POST">
-								<div class="container conta">
-									<div class="col-md-9">
-										<label for="uname"><b>Username</b></label>
-										<input type="text" placeholder="Enter Username" name="uname" required>
-										<label for="psw"><b>Password</b></label>
-										<input type="password" placeholder="Enter Password" name="psw" required>
-									</div>
-									<div class="col-md-3">
-										<div class="imgcontainer">
-											<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-											<img src="image/avatar.png" alt="Avatar" class="avatar">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<button type="submit">Login</button>
-										<label>
-											<input type="checkbox" checked="checked" name="remember"> Remember me
-										</label>
-									</div>
-								</div>
-								<div class="container conta" style="background-color:#f1f1f1">
-									<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-									<span class="psw">Forgot <a href="#">password?</a></span>
 								</div>
 							</form>
 						</div>

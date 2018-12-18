@@ -23,7 +23,8 @@
 							<div class="col-md-6">
 								<div class="bantinchinh">
 									<a href="http://localhost/btl/next2.php">
-										<img src="image/bow1.jpg">
+										<!-- <img src="image/bow1.jpg"> -->
+										<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbowstudio%2Fvideos%2F261963527801561%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 									</a>
 									<a href="http://localhost/btl/next2.php">
 										<div class="title-news">Những album ảnh hot nhất của Bow-Media năm 2018 :</div>
@@ -119,7 +120,7 @@
 								<div class="col-md-4">
 									<div class="row">
 										<div class="ctg-sanpham">
-											<a href="test.html">
+											<a href="next2.php">
 												<img src="image/goi1.jpg">
 											</a>
 											<div class="gtgoi">
@@ -251,4 +252,4 @@
 	?>
 	<script type="text/javascript" src="js/myscript.js"></script>
 </body>
-< /html>
+</html>

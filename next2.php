@@ -27,11 +27,11 @@
 						<div class="col-md-8">
 							<div class="noidung">
 								<div>
-									<h1> 【【【【【【   GÓI BOW DU LỊCH - PHƯỢT CÙNG BOW  】】】】】】
+									<h3> 【【【【【【   GÓI BOW DU LỊCH - PHƯỢT CÙNG BOW  】】】】】】
 										#PHƯỢT_CÙNG_BOW : ném #IPHONE X và trải nhiệm đi ! xách BALO lên và đi đi !!! 
 										📷💌 “Rồi bạn sẽ thấy rằng, sau những chuyến đi, mình lại có cái nhìn tròn đầy hơn về cuộc sống, thấy học được vài điều mới, thấy tâm mình tròn đầy hơn"
 										CHỤP ẢNH KỶ YẾU CHẤT NHẤT MIỀN BẮC ! 
-									</h1>
+									</h3>
 									<img src="image/goi2.jpg">
 									<p>1. 📷📣📷📣. Mộc Châu – Đà Lạt của vùng Tây Bắc : FULL 799k</p>
 									<p>2. 📷📣📷📣. Mai Châu – thiên đường Ẩm thực : FULL 599K</p>
@@ -79,6 +79,7 @@
 									<p>Address3 : 110 Nguyễn Tuân - Thanh Xuân – Hà Nội</p>
 									<p>Address4 :96 Hoàng Mai – Hà Nội</p>
 									<img src="image/goi 3.jpg">
+									<button id="btn-main2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Kí Gói</button>
 								</div>
 							</div>
 						</div>

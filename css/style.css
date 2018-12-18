@@ -12,7 +12,14 @@
 .font_1 {
 	font-family: Courier New;
 }
-header{;
+#input {
+	padding: 0px 17px;
+	margin: 2px 0px 15px 0px;
+}
+input#note {
+	padding: 11px 0px 197px 18px;
+}
+header{
 	border-top:1px solid red;
 	position: relative;
 	width: 100%;
@@ -124,6 +131,9 @@ i.fab.fa-google {
 	border: 0px;
 	border-radius: 2px;
 }
+.bantinchinh iframe{
+	max-width: 100%;
+}
 .bantinphu{
 	border-left: 1px solid white;
 	border-bottom: 1px solid white;
@@ -185,12 +195,12 @@ i.fab.fa-google {
 	width: 80%; /* Could be more or less, depending on screen size */
 }
 .close {
-	position: absolute;
-	right: -20px;
-	top: -33px;
-	color: #000;
-	font-size: 35px;
-	font-weight: bold;
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    bottom: 332px;
+    right: -324px;
 }
 .modal {
 	display: none; /* Hidden by default */
@@ -233,7 +243,6 @@ i.fab.fa-google {
 	padding: 12px 20px;
 	text-transform: uppercase;
 	background: #FF0000;
-	border-radius: 20px 1px;
 	border: 1px solid;
 	height: 49px;
 }
@@ -276,7 +285,7 @@ i.fab.fa-google {
 	position: relative;
 }
 .logo img {
-	max-width: 100%;
+	max-width: 44%;
 	height: auto;
 	margin: -12px 0px -10px 49px;
 }
