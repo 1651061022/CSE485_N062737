@@ -108,7 +108,7 @@
 						<div id="myDropdown" class="dropdown-content">
 							<a href="3_main.php">Trang Chủ</a>
 							<a href="next1.php">Giới Thiệu</a>
-							<a href="next1.php">Chụp Ảnh</a>
+							<a href="#test">Chụp Ảnh</a>
 							<a href="next1.php">Quay Phim</a>
 							<a href="index.php">Báo Giá</a>
 							<a href="index.php">Album</a>
@@ -118,7 +118,7 @@
 					<div class="topnav">
 						<a href="3_main.php">Trang Chủ</a>
 						<a href="next1.php">Giới Thiệu</a>
-						<a href="next1.php">Chụp Ảnh</a>
+						<a href="#test">Chụp Ảnh</a>
 						<a href="next1.php">Quay Phim</a>
 						<a href="index.php">Báo Giá</a>
 						<a href="index.php">Album</a>

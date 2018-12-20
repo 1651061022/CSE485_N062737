@@ -1,0 +1,4 @@
+Database DLKH - ( Du lieu khach hang )       //----------  KHKY - ( Khach hang ky yeu ) 
+Table KHKyYeu ( IDlop, TenLop, TenLopTruong, SDTLT, TenBiThu, SDTBT, NgayChup, Email , GoiChupKY, Note )
+Table KHCuoi ( IDCDCR, TenCD, TenCR, Ngaychup, NgayAH, NgayCuoi, GoiChupC, SDT, Note )
+Table KHSuKien (IDSK, DiaDiem, SDTKH, Note)

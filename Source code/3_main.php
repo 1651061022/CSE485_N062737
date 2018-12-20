@@ -12,6 +12,16 @@
 			include '2_header.php'
 			?>
 			<div class="main">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="gioithieuteam">
+							<div class="col-md-3">
+								<img src="image/admin1.jpg">
+								<p>Phạm Tiến Dũng</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="container bgtm">
 					<div class="row">
 						<div class="catalog-title">
@@ -111,7 +121,7 @@
 				<div class="container">	
 					<div class="row">
 						<div class="catalog-bottom">
-							<div class="tang1">
+							<div class="tang1" id="test">
 								<div class="col-md-12">
 									<div class="row">
 										<h1>Các gói chụp hot :</h1>
@@ -141,7 +151,7 @@
 											</a>
 											<div class="gtgoi">
 												<div class="gioithieu"><p>Gói BOW VIP 2</p></div>
-												<a href="">
+												<a href="next3.php">
 													<button>Xem thêm...
 													</button>
 												</a>
